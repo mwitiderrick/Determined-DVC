@@ -1,0 +1,15 @@
+environment:
+  image:
+    cpu: "determinedai/environments:py-3.6.9-pytorch-1.4-tf-2.2-cpu-0.8.0"
+description: mnist_tf_keras_const
+hyperparameters:
+  global_batch_size: 32
+  dense1: 128
+records_per_epoch: 60000
+searcher:
+  name: single
+  metric: val_accuracy
+  smaller_is_better: false
+  max_length:
+    epochs: 5
+entrypoint: model_def:MNISTTrial

@@ -1,0 +1,6 @@
+env/
+.dvc/
+.git/
+.gitignore
+.dvcignore
+

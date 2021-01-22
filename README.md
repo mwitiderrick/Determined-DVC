@@ -1,4 +1,4 @@
-# TensorFlow (tf.keras) Fashion MNIST Tutorial
+# TensorFlow (tf.keras) MNIST Tutorial
 
 This tutorial shows how to build a simple CNN on the MNIST dataset using
 Determined's tf.keras API. This example is adapted from this [Keras image
